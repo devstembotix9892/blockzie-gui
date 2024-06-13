@@ -1,0 +1,31 @@
+background
+Pizza Slice
+Go Straight
+Spades
+Diamonds
+1
+Turn Right
+8
+Pedestrian Crossing
+0
+Hearts
+6
+John
+3
+Bomb
+U Turn
+Cross Road
+Hazel
+5
+Go
+2
+Hospital
+9
+Stop
+Pizza
+Tree
+7
+Turn Left
+4
+Home
+Clubs
