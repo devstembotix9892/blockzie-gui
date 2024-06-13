@@ -1,0 +1,198 @@
+.modalContent {
+	position: fixed;
+	/* top: 20%;
+	left: 50%; */
+	margin: 30% 50%;
+	transform: translate(-50%, -50%);
+	background-color: rgb(240, 232, 232);
+	border-radius: 8px;
+	/* padding: 20px; */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	width: 600px;
+	max-height: 80vh;
+	overflow-y: auto;
+  }
+  
+  .header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+  }
+  
+  .headerImage {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+  }
+  
+  .body {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+  }
+  
+  .activityArea {
+	height: 300px;
+    background-color: hsla(215, 100%, 65%, 0.15);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .5rem;
+}
+  
+  .labelTilePane {
+	overflow-y: auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .bottomArea {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	background-color: hsla(0, 100%, 100%, 1);
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: .75rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+  }
+  
+  .buttonRow {
+	display: flex;
+  }
+  
+  .buttonRow button {
+	margin-right: 10px;
+  }
+  
+  .buttonRow button:last-child {
+	margin-right: 0;
+  }
+  .labelTile {
+	display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    background-color: hsla(0, 100%, 100%, 1);
+    border-radius: 0.25rem;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  
+  .verticalLayout {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .labelTileHeader {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  .exampleViewerText {
+	flex: 1;
+  }
+  
+  .inputField {
+	margin-right: 10px;
+  }
+  
+  .exampleBox {
+	margin-bottom: 10px;
+  }
+  
+  .exampleText {
+	margin-bottom: 5px;
+  }
+  
+  .labelTileFooter {
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .addExampleRow {
+	display: flex;
+	align-items: center;
+  }
+  
+  .addExampleRow .inputField {
+	flex: 1;
+	margin-right: 10px;
+  }
+  .labelTile {
+	margin-bottom: 20px;
+  }
+  
+  .verticalLayout {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .labelTileHeader {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  
+  .buttonRow button {
+	margin-right: 10px;
+	background-color: #191369;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .buttonRow button:last-child {
+	margin-right: 0;
+  }
+  .labelTile button {
+	background-color: #191369;
+	color: white;
+	border: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .labelTile button:last-child {
+	margin-left: 10px;
+  }

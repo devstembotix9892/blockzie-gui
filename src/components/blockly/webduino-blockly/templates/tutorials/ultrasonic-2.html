@@ -1,0 +1,24 @@
+<template id="head">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title data-translation="title">Webduino Blockly - 超音波傳感器改變圖片大小</title>
+  <!-- webduino -->
+  <script src="/lib/webduino-all.min.js"></script>
+  <script src="/lib/webduino-blockly.js"></script>
+  <script src="/lib/runtime.min.js"></script>
+</template>
+<template id="body">
+  <div id="show">0</div>
+  <img src="/media/tutorial-05-01s.jpg" id="image">
+</template>
+<template id="css">
+#image {
+  transition: .3s;
+  max-width: 100%;
+}
+
+#show {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+</template>

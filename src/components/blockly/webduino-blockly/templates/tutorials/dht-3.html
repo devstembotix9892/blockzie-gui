@@ -1,0 +1,31 @@
+<template id="head">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title data-translation="title">Webduino Blockly：使用 Firebase 紀錄溫濕度數值</title>
+  <script src="/lib/firebase.js"></script>
+  <!-- webduino -->
+  <script src="/lib/webduino-all.min.js"></script>
+  <script src="/lib/webduino-blockly.js"></script>
+  <script src="/lib/runtime.min.js"></script>
+</template>
+<template id="body">
+  <div id="show">
+    <span data-translation="temperature">溫度：</span>
+    <span id="temperature">0</span>℃<br>
+    <span data-translation="humidity">濕度：</span>
+    <span id="humidity">0</span> %
+  </div>
+</template>
+<template id="css">
+#show {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+#show b {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: top;
+  margin-top: -10px;
+}
+</template>
