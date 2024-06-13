@@ -1,0 +1,6 @@
+{
+  "appId": "com.blockzie.app",
+  "appName": "Blockzie",
+  "webDir": "www",
+  "bundledWebRuntime": false
+}
