@@ -67,7 +67,7 @@
     "autoprefixer": "^9.8.8",
     "awesome-react-repl": "^1.0.3",
     "babel-cli": "^6.26.0",
-    "babel-plugin-react-intl": "^8.2.25",
+    "babel-plugin-react-intl": "3.5.1",
     "babel-polyfill": "^6.26.0",
     "base64-loader": "1.0.0",
     "blockzie-blocks": "0.1.1-prerelease.20211025152811",
